@@ -1,3 +1,7 @@
+<?php
+require_once('system/controllers/feed_controller.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,57 +29,7 @@
     </div>
   </header>
   <div class="main-container" style="height: 10000px;">
-    <div class="fullscreen-post-container">
-      <div class="main-post-container">
-        <div class="text-post-container">
-          <div class="meta-post-container">
-            <img src="" alt="" class="avatar">
-            <p class="post-author"></p>
-            <p class="post-author-rating"></p>
-          </div>
-          
-          <div class="text-post-container">
-            <div class="post-title">
-
-            </div>
-            <div class="post-text">
-
-            </div>
-            <div class="post-info">
-              <p class="post-date">
-
-              </p>
-              <p class="post-views">
-
-              </p>
-            </div>
-          </div>
-
-          <div class="post-rating">
-            <div class="post-plus">
-
-            </div>
-            <div class="post-minus">
-
-            </div>
-            <div class="post-comments">
-
-            </div>
-          </div>
-        </div>
-        <div class="gallery-post-container">
-          <div class="gallery-image">
-            <img src="" alt="" class="gallery-image-item">
-          </div>
-          <div class="previous-gallery-item-button">
-            
-          </div>
-          <div class="next-gallery-item-button">
-
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
   <div class="bottom_panel">
     <div class="bottom-panel-button">
