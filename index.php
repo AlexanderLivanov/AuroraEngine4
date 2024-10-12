@@ -1,5 +1,7 @@
 <?php
 require_once('system/controllers/feed_controller.php');
+
+$feed_controller = new Feed_controller();
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +14,7 @@ require_once('system/controllers/feed_controller.php');
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/feed.css">
 </head>
 <body>
   <header>
@@ -29,7 +32,11 @@ require_once('system/controllers/feed_controller.php');
     </div>
   </header>
   <div class="main-container" style="height: 10000px;">
-    
+    <?php
+    $feed_controller->render_post('', 'a.livanov', '54', 'Hello World!', 'Hi', '25.01.2023', '14.8 тыс', '14 тыс', '0', '8.3 тыс', '');
+    $feed_controller->render_post('', 'a.livanov', '54', 'Hello World!', 'Hi', '25.01.2023', '14.8 тыс', '14 тыс', '0', '8.3 тыс', '');
+    $feed_controller->render_post('', 'a.livanov', '54', 'Hello World!', 'Hi', '25.01.2023', '14.8 тыс', '14 тыс', '0', '8.3 тыс', '');
+    ?>
   </div>
   <div class="bottom_panel">
     <div class="bottom-panel-button">
