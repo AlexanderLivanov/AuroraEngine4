@@ -38,12 +38,16 @@
 
 .meta-post-container p {
     margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Nanum Gothic';
+    font-weight: 600;
 }
 
 #sub-button {
     float: right;
     height: 40px;
     width: 40px;
+    display: none;
 }
 
 .gallery-post-container {

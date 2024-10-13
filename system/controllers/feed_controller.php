@@ -12,7 +12,7 @@ class Feed_controller {
                     <div class="meta-post-container">
                         <img src="'.$user_avatar_path.'" alt="" class="avatar">
                         <p class="post-author">'.$post_author.'</p>
-                        <p class="post-author-rating">'.$post_author_rating. '</p>
+                        <p class="post-author-rating">[R] '.$post_author_rating. '</p>
                         <input type="button" name="sub-button" id="sub-button" value="+">
                     </div>
 
